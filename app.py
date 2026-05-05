@@ -31,7 +31,7 @@ def get_client():
 client = get_client()
 
 # ─── Carpeta de documentos base ───────────────────────────────────────────────
-BASE_DOCS_DIR = Path("base_docs")
+BASE_DOCS_DIR = Path("documentación_base")
 BASE_DOCS_DIR.mkdir(exist_ok=True)
 
 # ─── Funciones de extracción de texto ─────────────────────────────────────────
