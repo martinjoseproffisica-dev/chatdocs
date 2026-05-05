@@ -159,7 +159,7 @@ with st.sidebar:
         st.rerun()
 
 # ─── Área principal ───────────────────────────────────────────────────────────
-st.title("🤖 ChatDocs")
+st.title("🤖 ChatDocs - UPC - FÍSICA")
 st.caption("Consultá información de los documentos cargados — Base de conocimiento compartida + tus propios archivos")
 
 # Mostrar estado de documentos disponibles
@@ -208,7 +208,7 @@ Reglas:
         with st.spinner("Analizando documentos..."):
             try:
                 respuesta = client.messages.create(
-                    model="claude-sonnet-4-20250514",
+                    model="claude-sonnet-4-6",
                     max_tokens=1024,
                     system=system_prompt,
                     messages=mensajes_api,
