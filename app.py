@@ -158,7 +158,7 @@ with st.sidebar:
         st.rerun()
 
 # ─── Área principal ───────────────────────────────────────────────────────────
-st.title("🤖 ChatDocs - UPC - FÍSICA")
+st.title("🕵️‍♂️ ChatDocs - UPC - FÍSICA")
 st.caption("Consultá información de los documentos cargados — Base de conocimiento compartida + tus propios archivos")
 
 # Mostrar estado de documentos disponibles
