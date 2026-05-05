@@ -33,7 +33,7 @@ client = get_client()
 # ─── Carpeta de documentos base ───────────────────────────────────────────────
 BASE_DOCS_DIR = Path("base_docs")
 BASE_DOCS_DIR.mkdir(exist_ok=True)
-
+git pull
 # ─── Funciones de extracción de texto ─────────────────────────────────────────
 def extraer_texto_pdf(file_bytes: bytes) -> str:
     if not PDF_SUPPORT:
