@@ -109,7 +109,7 @@ with st.sidebar:
     docs_base = cargar_docs_base()
     if docs_base:
         for nombre in docs_base:
-            st.write(f"📄 {nombre}")
+            st.write(f"📜 {nombre}")
     else:
         st.info("No hay documentos base todavía.\nAgregá archivos a la carpeta `base_docs/`.")
 
