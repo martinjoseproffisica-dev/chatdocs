@@ -1,0 +1,23 @@
+Bienvenido a ChatDocs
+=====================
+
+Este es un ejemplo de documento base. Podés reemplazarlo con tus propios materiales.
+
+¿Qué es ChatDocs?
+ChatDocs es un chatbot que te permite consultar información contenida en documentos.
+Podés hacer preguntas sobre el contenido de los archivos cargados y el asistente
+te responderá basándose en esa información.
+
+¿Cómo usarlo?
+1. Revisá los documentos disponibles en el panel izquierdo.
+2. Si tenés un documento propio, subilo desde "Subí tu documento".
+3. Hacé tus preguntas en el chat.
+4. El asistente buscará la respuesta en los documentos disponibles.
+
+¿Qué tipos de documentos se aceptan?
+- PDF (.pdf)
+- Word (.docx)
+- Texto plano (.txt)
+- Markdown (.md)
+
+Para más información, consultá al administrador del sistema.
